@@ -1,3 +1,5 @@
+from pydantic_settings import BaseSettings
+from pydantic import Field
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, Text
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
